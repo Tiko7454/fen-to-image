@@ -12,7 +12,7 @@ description = "Generate a chess board image given a FEN, à la Lichess style."
 requires-python = ">=3.7"
 dependencies = [
   "chess~=1.9",
-  "Pillow~=9.2",
+  "Pillow",
 ]
 readme = "README.md"
 license = { file="LICENSE" }
